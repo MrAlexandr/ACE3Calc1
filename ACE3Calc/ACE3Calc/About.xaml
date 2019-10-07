@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ACE3Calc.About"
+             Title="О приложении">
+    <ContentPage.Content>
+        <StackLayout Padding="5, 5, 5, 5">
+            
+            <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+
+                    <StackLayout HorizontalOptions="FillAndExpand">
+                        <Label Text="Автор:" HorizontalOptions="StartAndExpand"/>
+                        <Label Text="CaH4e3" HorizontalOptions="StartAndExpand"/>
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="FillAndExpand">
+
+                    </StackLayout>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+
+                    <StackLayout HorizontalOptions="FillAndExpand">
+                        <Label Text="Version:" HorizontalOptions="Start"/>
+                        <Label Text="Погрешность:" HorizontalOptions="Start"/>
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="FillAndExpand">
+                        <Label x:Name="versionlabel" HorizontalOptions="EndAndExpand"/>
+                        <Label Text="~4%" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+
+                </StackLayout>
+            </StackLayout>
+
+            <Label Text="ChangeLog:"/>
+            <ScrollView>
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout x:Name="stack1" HorizontalOptions="StartAndExpand">
+                            <Label Text="Общее:"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Start">
+                            <Label Text="Добавленны винтовки и пули, но многие с нулевыми коэффициентами."/>
+                        </StackLayout>
+                    </StackLayout>
+                    
+                    <!--<Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>
+                    <Label Text="12312312312312312312312321"/>-->
+                </StackLayout>
+            </ScrollView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

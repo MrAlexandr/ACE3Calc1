@@ -1,0 +1,1 @@
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.UWP\ACE3Calc.UWP.csproj;x86

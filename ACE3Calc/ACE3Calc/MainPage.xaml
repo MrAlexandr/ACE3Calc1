@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ACE3Calc"
+             x:Class="ACE3Calc.MainPage"
+             Title="MainPage"
+             BackgroundColor="Gray">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Master">
+            <ContentPage.Content>
+                <StackLayout BackgroundColor="#f5f5f5">
+
+                    <StackLayout Padding="5,5,5,5">
+                        <Image x:Name="img1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="BALLISTIC" HorizontalOptions="EndAndExpand" FontSize="Medium" TextColor="Black" FontAttributes="Bold" FontFamily="Open Sans"/>
+                            <Label Text="CALCULATOR" HorizontalOptions="StartAndExpand" FontSize="Medium" TextColor="#ba2619" FontAttributes="Bold" FontFamily="Open Sans"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout>
+                        <Button x:Name="ButWOGPage" Text="WOG3" HorizontalOptions="FillAndExpand" Clicked="ButWOGPage_cliked" BorderRadius="0" BackgroundColor="DarkCyan" TextColor="White" FontFamily="Open Sans" FontSize="Medium" FontAttributes="Bold"/>
+                    </StackLayout>
+
+                    <StackLayout>
+                        <Button x:Name="ButWRBCPage" Text="Red-Bear" HorizontalOptions="FillAndExpand" Clicked="ButWRBCPage_cliked" BorderRadius="0" BackgroundColor="#842727" TextColor="White" FontFamily="Open Sans" FontSize="Medium" FontAttributes="Bold"/>
+                    </StackLayout>
+
+                    <StackLayout>
+                        <Button x:Name="ButAboutPage" 
+                                Text="ABOUT" 
+                                HorizontalOptions="FillAndExpand" 
+                                Clicked="ButAboutPage_cliked" 
+                                BorderRadius="0" 
+                                BackgroundColor="#333333" 
+                                TextColor="White" 
+                                FontFamily="Open Sans" 
+                                FontSize="Medium" 
+                                FontAttributes="Bold"/>
+                    </StackLayout>
+
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <ContentPage.Content>
+                <Label/>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ACE3Calc.WOG3"
+             Title="WOG3"
+             BackgroundColor="DarkGray">
+    
+    <ContentPage.Content>
+        <Grid RowSpacing="2" ColumnSpacing="2" Padding="5, 5, 5, 5">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Row ="0" Grid.Column="4" Grid.RowSpan="11" BackgroundColor="DarkGray">
+                <ScrollView>
+                    <StackLayout Margin="0" Spacing="2">
+                        <Button x:Name="but200" Text="200" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but200_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but250" Text="250" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but250_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but300" Text="300" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but300_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but350" Text="350" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but350_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but400" Text="400" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but400_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but450" Text="450" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but450_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but500" Text="500" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but500_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but550" Text="550" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but550_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but600" Text="600" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but600_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but650" Text="650" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but650_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but700" Text="700" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but700_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but750" Text="750" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but750_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but800" Text="800" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but800_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but850" Text="850" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but850_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but900" Text="900" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but900_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but950" Text="950" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but950_clicked" BackgroundColor="LightCyan"/>
+                        <Button x:Name="but1000" Text="1000" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="but1000_clicked" BackgroundColor="LightCyan"/>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+
+
+
+
+            <!--Пиккер для оружия-->
+            <Label Text="Weapon" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="Medium" HorizontalOptions="Start" VerticalOptions="Start" TextColor="Black"/>
+            <Picker x:Name="pickerWeapon" BackgroundColor="Cyan" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" SelectedIndexChanged="PickerWeapon_SelectedIndexChanged" FontSize="Default">
+                <Picker.Items>
+                    <!--<x:String>Weapon 1</x:String>
+                <x:String>Weapon 2</x:String>-->
+                </Picker.Items>
+            </Picker>
+            <!--/Пиккер для оружия-->
+
+            <!--Пиккер для пуль-->
+            <Label Text="Bullet" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" FontSize="Medium" HorizontalOptions="Start" VerticalOptions="Start" TextColor="Black"/>
+            <Picker x:Name="pickerBullet" BackgroundColor="LightCyan" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" SelectedIndexChanged="PickerBullet_SelectedIndexChanged" FontSize="Small">
+                <Picker.Items>
+                    <!--<x:String>Bullet 1</x:String>
+                <x:String>Bullet 2</x:String>-->
+                </Picker.Items>
+            </Picker>
+            <!--/Пиккер для пуль-->
+
+
+            <!--<Label Text="Temp" Grid.Row="0" Grid.Column="3" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        <StackLayout BackgroundColor="Cyan" Grid.Row="1" Grid.Column="3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Label x:Name="labelTemp" Text="15" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+        
+        -->
+            <!--<Stepper x:Name="stepper1" Minimum="-15" Maximum="99" Value="15" Increment="1" ValueChanged="stepper1_changevalue" Grid.Row="2" Grid.Column="2" Grid.RowSpan="5" Grid.ColumnSpan="3"/>-->
+            <!--
+        
+        <Button Text="+" Grid.Row="2" Grid.Column="3" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1"/>
+        <Button Text="-" Grid.Row="3" Grid.Column="3" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1"/>-->
+
+
+
+            <!--Поправка-->
+            <StackLayout Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="1">
+                <Label x:Name="labelx" Text="Result:" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" FontSize="Medium" TextColor="Black"/>
+            </StackLayout>
+            <StackLayout Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" BackgroundColor="LightCyan">
+                <Label x:Name="labelRezult" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="Large" TextColor="Black"/>
+            </StackLayout>
+            <!--/Поправка-->
+
+
+
+
+            <!--Температура-->
+            <StackLayout Grid.Row="4" Grid.Column="0">
+                <Label Text="TEMP:" FontSize="Medium" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="Black"/>
+
+            </StackLayout>
+
+            <StackLayout BackgroundColor="White" Grid.Row="4" Grid.Column="2">
+                <Label x:Name="labelTemp" FontSize="Large" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" TextColor="Black" />
+            </StackLayout>
+
+
+            <!--Кнопка температуры INT плюс-->
+            <Button x:Name="buttonTempSub" Text="+" Grid.Row="4" Grid.Column="1" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="buttonTempAdd_clicked" BackgroundColor="DarkCyan"/>
+            <!--Кнопка температуры INT минус-->
+            <Button x:Name="buttonTempAdd" Text="-" Grid.Row="5" Grid.Column="1" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="buttonTempSub_clicked" BackgroundColor="Cyan"/>
+
+
+
+            <!--Кнопка температуры плюс-->
+            <Button x:Name="buttonTempSubFl" Text="+" Grid.Row="4" Grid.Column="3" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="buttonTempAddFl_clicked" BackgroundColor="DarkCyan"/>
+            <!--Кнопка температуры минус-->
+            <Button x:Name="buttonTempAddFl" Text="-" Grid.Row="5" Grid.Column="3" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="buttonTempSubFl_clicked" BackgroundColor="Cyan"/>
+
+            <!--/Температура-->
+
+            <!--Поле отоброжения значения введенного растояния-->
+            <StackLayout Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="White">
+                <Label x:Name="labelRange" Text="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="Large" TextColor="Black"/>
+            </StackLayout>
+            <!--/Поле отоброжения значения введенного растояния-->
+
+            <!--Кнопки цифровой клавиатуры-->
+            <Button x:Name="button1" Grid.Row="8" Grid.Column="0" Text="1" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="button1_clicked" BackgroundColor="Cyan"/>
+            <Button x:Name="button2" Grid.Row="8" Grid.Column="1" Text="2" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="button2_clicked" BackgroundColor="Cyan"/>
+            <Button x:Name="button3" Grid.Row="8" Grid.Column="2" Text="3" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="button3_clicked" BackgroundColor="Cyan"/>
+            <Button x:Name="button4" Grid.Row="9" Grid.Column="0" Text="4" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="button4_clicked" BackgroundColor="Cyan"/>
+            <Button x:Name="button5" Grid.Row="9" Grid.Column="1" Text="5" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="button5_clicked" BackgroundColor="Cyan"/>
+            <Button x:Name="button6" Grid.Row="9" Grid.Column="2" Text="6" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="button6_clicked" BackgroundColor="Cyan"/>
+            <Button x:Name="button7" Grid.Row="10" Grid.Column="0" Text="7" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="button7_clicked" BackgroundColor="Cyan"/>
+            <Button x:Name="button8" Grid.Row="10" Grid.Column="1" Text="8" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="button8_clicked" BackgroundColor="Cyan"/>
+            <Button x:Name="button9" Grid.Row="10" Grid.Column="2" Text="9" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="button9_clicked" BackgroundColor="Cyan"/>
+
+            <Button x:Name="buttonC" Grid.Row="7" Grid.Column="3" Text="C" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="buttonC_clicked"  BackgroundColor="Red"/>
+
+            <Button x:Name="buttonRangeAdd" Grid.Row="8" Grid.Column="3" Text="+10" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="buttonRangeAdd_clicked"  BackgroundColor="DarkCyan"/>
+            <Button x:Name="buttonRangeSub" Grid.Row="9" Grid.Column="3" Text="-10" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" Clicked="buttonRangeSub_clicked" BackgroundColor="DarkCyan"/>
+
+            <Button x:Name="button0" Grid.Row="10" Grid.Column="3" Text="0" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BorderRadius="1" BackgroundColor="Yellow" Clicked="button0_clicked"/>
+            <!--/Кнопки цифровой клавиатуры-->
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

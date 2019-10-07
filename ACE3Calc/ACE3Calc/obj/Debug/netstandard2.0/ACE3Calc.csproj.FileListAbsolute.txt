@@ -1,0 +1,15 @@
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\bin\Debug\netstandard2.0\ACE3Calc.deps.json
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\bin\Debug\netstandard2.0\ACE3Calc.dll
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\bin\Debug\netstandard2.0\ACE3Calc.pdb
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\obj\Debug\netstandard2.0\About.xaml.g.cs
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\obj\Debug\netstandard2.0\RBC.xaml.g.cs
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\obj\Debug\netstandard2.0\WOG3.xaml.g.cs
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\obj\Debug\netstandard2.0\ACE3Calc.csproj.CoreCompileInputs.cache
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\obj\Debug\netstandard2.0\ACE3Calc.AssemblyInfoInputs.cache
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\obj\Debug\netstandard2.0\ACE3Calc.AssemblyInfo.cs
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\obj\Debug\netstandard2.0\XamlC.stamp
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\obj\Debug\netstandard2.0\ACE3Calc.dll
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\obj\Debug\netstandard2.0\ACE3Calc.pdb
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc\obj\Debug\netstandard2.0\ACE3Calc.csprojAssemblyReference.cache
