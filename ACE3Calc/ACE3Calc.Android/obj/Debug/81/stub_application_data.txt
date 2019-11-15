@@ -1,0 +1,2 @@
+android.app.Application
+ACE3Calc_0.x3

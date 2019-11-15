@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Net.Sockets;
+using System.Net;
 
 namespace ACE3Calc
 {
@@ -16,6 +18,7 @@ namespace ACE3Calc
         public MainPage()
         {
             InitializeComponent();
+            NewVersionMessage(); //Функция уведомления о новой версии
 
             img1.Source = ImageSource.FromResource("ACE3Calc.img.acelogobig.png"); //Картинка для меню
 
@@ -53,9 +56,18 @@ namespace ACE3Calc
             IsPresented = false;
         }
         private void ButAboutPage_cliked(object senders, EventArgs e) //Открываем нужную страницу
-        {            
+        {
             Detail = aboutpage;
             IsPresented = false;
+        }
+
+
+        public void NewVersionMessage() //Функция уведомления о новой версии
+        {
+            if (AppSettings.CheckNewVersion() == true)
+            {
+                DisplayAlert("Вышла новая версия!", $"Текущая версия: {AppSettings.currrentversion}. Доступная версия для установки: {AppSettings.lastverison}", "ОK");
+            }
         }
 
 

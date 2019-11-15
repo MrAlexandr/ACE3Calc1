@@ -37,16 +37,36 @@
 
             <Label Text="ChangeLog:"/>
             <ScrollView>
+                
                 <StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <StackLayout x:Name="stack1" HorizontalOptions="StartAndExpand">
-                            <Label Text="Общее:"/>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <StackLayout WidthRequest="150">
+                            <Label Text="V 0.4" FontAttributes="None" TextColor="Black"/>
                         </StackLayout>
-                        <StackLayout HorizontalOptions="Start">
-                            <Label Text="Добавленны винтовки и пули, но многие с нулевыми коэффициентами."/>
+                        <StackLayout HorizontalOptions="StartAndExpand" >
+                            <Label Text="Исправлены недочеты. Добавлены коэффициенты для некоторых пуль." HorizontalOptions="Start" />
                         </StackLayout>
                     </StackLayout>
-                    
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">                        
+                        <StackLayout WidthRequest="150">
+                            <Label Text="V 0.3" FontAttributes="None" TextColor="Black"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="StartAndExpand" >
+                            <Label Text="Добавленны винтовки и пули, но многие с нулевыми коэффициентами. Новый дизайн бокового меню." HorizontalOptions="Start" />
+                        </StackLayout>                        
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <StackLayout WidthRequest="150">
+                            <Label Text="V 0.2" FontAttributes="None" TextColor="Black"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="StartAndExpand">
+                            <Label Text="Добавлено боковое меню." HorizontalOptions="Start"/>
+                        </StackLayout>
+                    </StackLayout>
+
                     <!--<Label Text="12312312312312312312312321"/>
                     <Label Text="12312312312312312312312321"/>
                     <Label Text="12312312312312312312312321"/>

@@ -1,7 +1,7 @@
 D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\bin\Release\ACE3Calc.Android.dll
 D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\bin\Release\ACE3Calc.Android.pdb
-D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\bin\Release\ACE3Calc_0.x3.apk
-D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\bin\Release\ACE3Calc_0.x3-Signed.apk
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\bin\Release\ACE3Calc_0.x4.apk
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\bin\Release\ACE3Calc_0.x4-Signed.apk
 D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\bin\Release\ACE3Calc.dll
 D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\bin\Release\ACE3Calc.pdb
 D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\obj\Release\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
@@ -14,7 +14,7 @@ D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\obj\Release\81\XamlC.stamp
 D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\obj\Release\81\ACE3Calc.Android.csproj.CopyComplete
 D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\obj\Release\81\ACE3Calc.Android.dll
 D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\obj\Release\81\ACE3Calc.Android.pdb
-D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\obj\Release\81\android\bin\ACE3Calc_0.x3.apk
+D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\obj\Release\81\android\bin\ACE3Calc_0.x4.apk
 D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\obj\Release\81\res\layout\tabbar.xml
 D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\obj\Release\81\res\layout\toolbar.xml
 D:\C#\Xamarin\ACE3Calc\ACE3Calc\ACE3Calc.Android\obj\Release\81\res\values\styles.xml
